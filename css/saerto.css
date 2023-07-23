@@ -1,0 +1,245 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body header {
+  width: 100%;
+  height: 85px;
+  display: flex;
+  background-color: whitesmoke;
+}
+body header .container {
+  width: 176px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+  vertical-align: middle;
+}
+body header .container a .tbc {
+  width: 176px;
+  height: 40px;
+}
+body .container1 {
+  display: flex;
+  width: 600px;
+  height: 20px;
+  margin-left: 530px;
+  margin-top: 23px;
+  vertical-align: middle;
+}
+body .container1 nav {
+  display: flex;
+}
+body .container1 nav i {
+  margin-top: 5px;
+  margin-left: 20px;
+}
+body .container1 nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+body .container1 nav ul li {
+  display: flex;
+  margin-left: 20px;
+  color: #000;
+  text-align: right;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  font-family: "BPG Mikheil Stefane", sans-serif;
+}
+body .m-photo {
+  display: block;
+  width: 100%;
+  height: 812PX;
+}
+body .m-photo .bigphoto {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 700PX;
+}
+body .m-photo h1 {
+  position: absolute;
+  top: 420px;
+  left: 113px;
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 150px;
+  font-family: "BPG Ucnobi", sans-serif;
+  color: #fff200;
+}
+body .m-photo h2 {
+  position: absolute;
+  top: 570px;
+  left: 113px;
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 150px;
+  font-family: "BPG Ucnobi", sans-serif;
+  color: #fff200;
+}
+
+.seq-1 {
+  margin-top: -115px;
+  width: 100%;
+  height: 1057px;
+  border-top: rgba(255, 255, 255, 0.4);
+  background: linear-gradient(180deg, #cb5800 0%, rgba(0, 190, 172, 0) 100%);
+  position: relative;
+}
+.seq-1 .mshobeli {
+  width: 100% px;
+  height: 350px;
+  flex-shrink: 0;
+}
+.seq-1 .mshobeli .text {
+  display: flex;
+  justify-content: center;
+  top: 157px;
+}
+.seq-1 .mshobeli .text p {
+  position: absolute;
+  top: 157PX;
+  width: 579px;
+  height: 92px;
+  flex-shrink: 0;
+  color: #ffffff;
+  text-align: center;
+  font-family: Smith Allison;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 82.8%; /* 165.6px */
+  font-family: "BPG Ucnobi", sans-serif;
+}
+.seq-1 .mshobeli .text .P {
+  position: absolute;
+  top: 295PX;
+  color: #FFF;
+  text-align: center;
+  font-family: Circular Std;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: "BPG Ucnobi", sans-serif;
+}
+.seq-1 .didi-div {
+  width: 100%;
+  height: 700px;
+  top: 470px;
+}
+.seq-1 .didi-div .shvili-div {
+  display: flex;
+  justify-content: space-around;
+}
+.seq-1 .didi-div .shvili-div .image-div {
+  position: relative;
+  width: 310px;
+  height: 553px;
+}
+.seq-1 .didi-div .shvili-div .image-div .div-image-text {
+  position: absolute;
+  top: 380px;
+  left: 70px;
+  color: #FFF;
+  text-align: center;
+  font-family: Circular Std;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.seq-1 .didi-div .shvili-div .image-div .div-image {
+  width: 310px;
+  height: 553px;
+  top: 1398px;
+  left: 70px;
+  border-radius: 10px;
+}
+
+body footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: contain;
+}
+body footer .footer {
+  width: 1500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  object-fit: contain;
+}/*# sourceMappingURL=saerto.css.map */
